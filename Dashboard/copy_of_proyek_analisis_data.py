@@ -12,7 +12,7 @@ day_df = pd.read_csv("Dashboard/all_data.csv")
 # Add a sidebar with image
 st.sidebar.title("Inas Hamidah")
 st.sidebar.header("Projek Akhir Dicoding")
-st.sidebar.image("sepeda.jpg", caption="Bike Sharing Analyst", use_column_width=True)
+st.sidebar.image("Dashboard/sepeda.jpg", caption="Bike Sharing Analyst", use_column_width=True)
 
 # Add a calendar to the sidebar
 selected_date = st.sidebar.date_input("Select Date", date.today())
