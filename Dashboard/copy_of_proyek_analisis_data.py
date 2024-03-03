@@ -8,7 +8,7 @@ from datetime import date
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Load the provided DataFrame
-day_df = pd.read_csv("all_data.csv")
+day_df = pd.read_csv("Dashboard/all_data.csv")
 # Add a sidebar with image
 st.sidebar.title("Inas Hamidah")
 st.sidebar.header("Projek Akhir Dicoding")
